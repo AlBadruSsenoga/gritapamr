@@ -1,24 +1,26 @@
 # Gritap AMR
+
+## Background
 Machine learning (ML) models using sourced data (ATLAS antimicrobial resistance (AMR) data), to explore data trends, build predictive ML models, and forecast resistance dynamics through an interactive web interface.
 
 Antimicrobial resistance (AMR) occurs when pathogens change and find ways to resist the effects of anti-infectives. AMR, particularly in Gram-negative bacteria, is widely recognized as one of the biggest threats to global public health today; causing 700,000 deaths annually[1].
 
 Gritap AMR is powered by Pfizer’s ATLAS (Antimicrobial Testing Leadership and Surveillance) dataset[2]. ATLAS is a large-scale global program that aggregates AMR data from three surveillance initiatives (TEST, AWARE, INFORM), spanning more than 14 years across over 60–73 countries.
 The dataset includes cumulative data on more than 556,000 bacterial isolates, with updates released approximately every 6 to 12 months via the ATLAS website and mobile app
-    Specifically, the dataset accessible through the Vivli AMR Register includes:
-        
-    - Around 917,049 antibiotic isolates and 21,631 antifungal isolates as of June 2024.
-    - It covers both pediatric data and limited genotypic information, such as the presence or absence of β-lactamase genes.
-    - MIC (minimal inhibitory concentration) data, along with metadata including country, specimen type, year, organism, antimicrobial used, and basic demographics (e.g., age range, gender) are included
-   
-    Read more about the Pfizer's ATLAS Program dataset [here](https://amr.vivli.org/members/research-programs/).
+
+Specifically, the dataset accessible through the Vivli AMR Register includes:   
+- Around 917,049 antibiotic isolates and 21,631 antifungal isolates as of June 2024.
+- It covers both pediatric data and limited genotypic information, such as the presence or absence of β-lactamase genes.
+- MIC (minimal inhibitory concentration) data, along with metadata including country, specimen type, year, organism, antimicrobial used, and basic demographics (e.g., age range, gender) are included.
+
+Read more about the Pfizer's ATLAS Program dataset [here](https://amr.vivli.org/members/research-programs/).
 
     
 LINK to the deployed PROTOTYPE: https://gritapamr.onrender.com/
 
 Github link with python and streamlit source code: https://github.com/AlBadruSsenoga/gritapamr
 
-## 🚀 Gritap AMR 4 Sections
+## Four Sections
 
 Gritap AMR is a clinical decision-support system that delivers 4 integrated capabilities that take the user from exploration to action:
 1.	**Data Analysis**: Explore interactive, hover-enabled visualizations (Plotly) of demographic, bacterial, and resistance data, enriched with real-time observations, implications, and recommendations for clinical action.
