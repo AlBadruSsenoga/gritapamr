@@ -30,13 +30,13 @@ Gritap AMR is a clinical decision-support system that delivers 4 integrated capa
 
 
 
-## 🛠️ Getting Started
+## Getting Started
 
-### 📦 Prerequisites
+### Prerequisites
 - Python 3.9 or later
 - Recommended: set up a virtual environment (`venv`, `conda`)
 
-### ⚙️ Installation
+### Installation
 
 ```bash
 git clone https://github.com/AlBadruSsenoga/gritapamr.git
@@ -47,9 +47,8 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ---
-## 📄 Pages & Functionality
+## Functionality
 
-- **Home** - Project overview, methodology, and call-to-action navigation
 - **Data Analysis** - Demographic, species, and antibiotic resistance visualizations with insights
 - **Train Model** - Interface to train classification models with causal analysis and export
 - **Make a Forecast** - Forecast MIC trajectories with Prophet, offering trend visualizations
