@@ -1,9 +1,9 @@
 # Gritap AMR
 
 ## Background
-Machine learning (ML) models using sourced data (ATLAS antimicrobial resistance (AMR) data), to explore data trends, build predictive ML models, and forecast resistance dynamics through an interactive web interface.
+Antimicrobial resistance (AMR) occurs when pathogens change and find ways to resist the effects of anti-infectives. AMR, particularly in Gram-negative bacteria, is widely recognized as one of the biggest threats to global public health today, causing 700,000 deaths annually[1].
 
-Antimicrobial resistance (AMR) occurs when pathogens change and find ways to resist the effects of anti-infectives. AMR, particularly in Gram-negative bacteria, is widely recognized as one of the biggest threats to global public health today; causing 700,000 deaths annually[1].
+Gritap AMR uses Machine learning (ML) models using sourced data (ATLAS antimicrobial resistance (AMR) data), to explore data trends, build predictive ML models, and forecast resistance dynamics through an interactive web interface.
 
 Gritap AMR is powered by Pfizer’s ATLAS (Antimicrobial Testing Leadership and Surveillance) dataset[2]. ATLAS is a large-scale global program that aggregates AMR data from three surveillance initiatives (TEST, AWARE, INFORM), spanning more than 14 years across over 60–73 countries.
 The dataset includes cumulative data on more than 556,000 bacterial isolates, with updates released approximately every 6 to 12 months via the ATLAS website and mobile app
